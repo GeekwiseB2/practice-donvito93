@@ -39,3 +39,39 @@
   height: 200px;
   border: 2px solid black;
 }
+
+@media screen and (max-width : 768px) {
+  .promo{
+    background-color: #999;
+  }
+  .aside{
+    background-color: #999;
+  }
+  .content{
+    background-color: #999;
+  }
+  .header{
+    background-color: #999;
+  }
+  .footer{
+    background-color: #999;
+  }
+}
+
+@media screen and (max-width : 385px) {
+  .promo{
+    background-color: #00FFFF;
+  }
+  .aside{
+    background-color: #00FFFF;
+  }
+  .content{
+    background-color: #00FFFF;
+  }
+  .header{
+    background-color: #00FFFF;
+  }
+  .footer{
+    background-color: #00FFFF;
+  }
+}
